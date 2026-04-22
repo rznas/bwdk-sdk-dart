@@ -151,15 +151,15 @@ class OrderCreate {
   /// Maximum value: 2147483647
   int? reservationExpiredAt;
 
-  /// کد مرجع منحصر به فرد برای پیگیری سفارش مشتری (فرمت: BD-XXXXXXXX)
+  /// کد مرجع یکتا برای پیگیری سفارش مشتری (قالب: BD-XXXXXXXX)
   String referenceCode;
 
-  /// زمان آمادهسازی سفارش (به روز)
+  /// Preparation time for the order (in days)
   ///
   /// Minimum value: 0
   int preparationTime;
 
-  /// وزن کل سفارش (بر حسب گرم)
+  /// Total Weight of the order (in grams)
   ///
   /// Minimum value: 0
   ///

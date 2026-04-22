@@ -27,7 +27,7 @@ void main() {
       // TODO
     });
 
-    // شناسه منحصر به فرد برای پذیرنده برای تأیید سفارش
+    // شناسه منحصر به فرد فروشنده برای تأیید سفارش
     // String merchantUniqueId
     test('to test the property `merchantUniqueId`', () async {
       // TODO

@@ -53,7 +53,7 @@ void main() {
       // TODO
     });
 
-    // مجموع قیمت‌های اولیه تمام کالاها بدون تخفیف (به تومان)
+    // مجموع قیمت اولیه تمام کالاهای سفارش بدون تخفیف (به تومان)
     // int mainAmount
     test('to test the property `mainAmount`', () async {
       // TODO
@@ -71,7 +71,7 @@ void main() {
       // TODO
     });
 
-    // کل تخفیف اعمال شده بر سفارش (به تومان)
+    // مبلغ کل تخفیف اعمال شده بر سفارش (به تومان)
     // int discountAmount
     test('to test the property `discountAmount`', () async {
       // TODO
@@ -187,13 +187,13 @@ void main() {
       // TODO
     });
 
-    // زمان آمادهسازی سفارش (به روز)
+    // Preparation time for the order (in days)
     // int preparationTime
     test('to test the property `preparationTime`', () async {
       // TODO
     });
 
-    // وزن کل سفارش (بر حسب گرم)
+    // Total weight of the order (in grams)
     // double weight
     test('to test the property `weight`', () async {
       // TODO
@@ -204,7 +204,7 @@ void main() {
       // TODO
     });
 
-    // کد مرجع منحصر به فرد برای پیگیری سفارش مشتری (فرمت: BD-XXXXXXXX)
+    // کد مرجع یکتا برای پیگیری سفارش مشتری (قالب: BD-XXXXXXXX)
     // String referenceCode
     test('to test the property `referenceCode`', () async {
       // TODO
@@ -220,13 +220,13 @@ void main() {
       // TODO
     });
 
-    // مبلغ نشانه‌گذاری برای سفارش (به تومان)
+    // Markup amount for the order (in Tomans)
     // int digipayMarkupAmount
     test('to test the property `digipayMarkupAmount`', () async {
       // TODO
     });
 
-    // درصد کمیسیون نشانه‌گذاری برای سفارش (به درصد)
+    // Markup commission percentage for the order (in percent)
     // int markupCommissionPercentage
     test('to test the property `markupCommissionPercentage`', () async {
       // TODO

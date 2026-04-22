@@ -5,7 +5,6 @@ README.md
 analysis_options.yaml
 doc/AuthStatusResponse.md
 doc/BusinessAddress.md
-doc/DefaultApi.md
 doc/DeliveryTimeRangeDisplay.md
 doc/ErrorEnum.md
 doc/GatewayTypeEnum.md
@@ -13,7 +12,9 @@ doc/Merchant.md
 doc/MerchantOrderCancelShipmentResponse.md
 doc/MerchantOrderRefundResponse.md
 doc/MerchantOrderReviveShipmentResponse.md
+doc/MerchantOrdersApi.md
 doc/MerchantPaidOrderList.md
+doc/MerchantWalletApi.md
 doc/NullEnum.md
 doc/Option.md
 doc/OrderCreate.md
@@ -21,6 +22,7 @@ doc/OrderCreateResponse.md
 doc/OrderDetail.md
 doc/OrderError.md
 doc/OrderItemCreate.md
+doc/OrderShippingApi.md
 doc/OrderStatusEnum.md
 doc/OrderUser.md
 doc/Packing.md
@@ -29,6 +31,7 @@ doc/PaginatedOrderDetailList.md
 doc/PaymentOrder.md
 doc/RefundOrder.md
 doc/ReviveShipment.md
+doc/SellerProfileManagementApi.md
 doc/ShippingMethod.md
 doc/ShippingTypeEnum.md
 doc/TypeNameEnum.md
@@ -37,7 +40,10 @@ doc/VerifyOrder.md
 doc/WalletBalance.md
 git_push.sh
 lib/api.dart
-lib/api/default_api.dart
+lib/api/merchant_orders_api.dart
+lib/api/merchant_wallet_api.dart
+lib/api/order_shipping_api.dart
+lib/api/seller_profile_management_api.dart
 lib/api_client.dart
 lib/api_exception.dart
 lib/api_helper.dart
@@ -80,15 +86,16 @@ lib/model/wallet_balance.dart
 pubspec.yaml
 test/auth_status_response_test.dart
 test/business_address_test.dart
-test/default_api_test.dart
 test/delivery_time_range_display_test.dart
 test/error_enum_test.dart
 test/gateway_type_enum_test.dart
 test/merchant_order_cancel_shipment_response_test.dart
 test/merchant_order_refund_response_test.dart
 test/merchant_order_revive_shipment_response_test.dart
+test/merchant_orders_api_test.dart
 test/merchant_paid_order_list_test.dart
 test/merchant_test.dart
+test/merchant_wallet_api_test.dart
 test/null_enum_test.dart
 test/option_test.dart
 test/order_create_response_test.dart
@@ -96,6 +103,7 @@ test/order_create_test.dart
 test/order_detail_test.dart
 test/order_error_test.dart
 test/order_item_create_test.dart
+test/order_shipping_api_test.dart
 test/order_status_enum_test.dart
 test/order_user_test.dart
 test/packing_test.dart
@@ -104,6 +112,7 @@ test/paginated_order_detail_list_test.dart
 test/payment_order_test.dart
 test/refund_order_test.dart
 test/revive_shipment_test.dart
+test/seller_profile_management_api_test.dart
 test/shipping_method_test.dart
 test/shipping_type_enum_test.dart
 test/type_name_enum_test.dart

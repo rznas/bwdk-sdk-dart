@@ -24,9 +24,9 @@ Name | Type | Description | Notes
 **sourceAddress** | **Object** | مقدار توسط سیستم جایگذاری می شود | [optional] 
 **user** | **int** |  | [readonly] 
 **reservationExpiredAt** | **int** | مهلت پرداخت (به عنوان Unix timestamp) قبل از اتمام سفارش | [optional] 
-**referenceCode** | **String** | کد مرجع منحصر به فرد برای پیگیری سفارش مشتری (فرمت: BD-XXXXXXXX) | [readonly] 
-**preparationTime** | **int** | زمان آمادهسازی سفارش (به روز) | [optional] [default to 2]
-**weight** | **double** | وزن کل سفارش (بر حسب گرم) | [optional] 
+**referenceCode** | **String** | کد مرجع یکتا برای پیگیری سفارش مشتری (قالب: BD-XXXXXXXX) | [readonly] 
+**preparationTime** | **int** | Preparation time for the order (in days) | [optional] [default to 2]
+**weight** | **double** | Total Weight of the order (in grams) | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

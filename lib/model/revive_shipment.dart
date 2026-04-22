@@ -16,7 +16,7 @@ class ReviveShipment {
     this.preparationTime,
   });
 
-  /// زمان آمادهسازی سفارش (به روز)
+  /// The preparation time for the order in days.
   ///
   /// Minimum value: 0
   int? preparationTime;

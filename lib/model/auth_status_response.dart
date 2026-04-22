@@ -16,7 +16,7 @@ class AuthStatusResponse {
     required this.isAuthenticated,
   });
 
-  /// وضعیت لاگین بودن
+  /// Authentication status
   bool isAuthenticated;
 
   @override

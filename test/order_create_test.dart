@@ -109,19 +109,19 @@ void main() {
       // TODO
     });
 
-    // کد مرجع منحصر به فرد برای پیگیری سفارش مشتری (فرمت: BD-XXXXXXXX)
+    // کد مرجع یکتا برای پیگیری سفارش مشتری (قالب: BD-XXXXXXXX)
     // String referenceCode
     test('to test the property `referenceCode`', () async {
       // TODO
     });
 
-    // زمان آمادهسازی سفارش (به روز)
+    // Preparation time for the order (in days)
     // int preparationTime (default value: 2)
     test('to test the property `preparationTime`', () async {
       // TODO
     });
 
-    // وزن کل سفارش (بر حسب گرم)
+    // Total Weight of the order (in grams)
     // double weight
     test('to test the property `weight`', () async {
       // TODO

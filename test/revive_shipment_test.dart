@@ -16,7 +16,7 @@ void main() {
   // final instance = ReviveShipment();
 
   group('test ReviveShipment', () {
-    // زمان آمادهسازی سفارش (به روز)
+    // The preparation time for the order in days.
     // int preparationTime
     test('to test the property `preparationTime`', () async {
       // TODO

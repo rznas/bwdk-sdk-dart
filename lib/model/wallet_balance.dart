@@ -17,7 +17,7 @@ class WalletBalance {
     required this.negativeSettlementDeadline,
   });
 
-  /// موجودی کیف پول فعلی (برحسب تومان)
+  /// Current wallet balance in Tomans
   ///
   /// Minimum value: -2147483648
   /// Maximum value: 2147483647
@@ -29,7 +29,7 @@ class WalletBalance {
   ///
   int? amount;
 
-  /// مهلت تسویه تراز منفی
+  /// Deadline for settling negative balance
   String? negativeSettlementDeadline;
 
   @override

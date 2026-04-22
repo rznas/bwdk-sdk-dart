@@ -16,7 +16,7 @@ void main() {
   // final instance = RefundOrder();
 
   group('test RefundOrder', () {
-    // دلیل اختیاری برای بازگرداندن وجه
+    // Optional reason for the refund
     // String reason
     test('to test the property `reason`', () async {
       // TODO

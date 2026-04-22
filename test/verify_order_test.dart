@@ -16,7 +16,7 @@ void main() {
   // final instance = VerifyOrder();
 
   group('test VerifyOrder', () {
-    // شناسه منحصر به فرد ارسال شده هنگام ایجاد سفارش برای تأیید اصالت سفارش
+    // شناسه منحصر به فرد ارسال شده هنگام ساخت سفارش برای تأیید اصالت سفارش
     // String merchantUniqueId
     test('to test the property `merchantUniqueId`', () async {
       // TODO

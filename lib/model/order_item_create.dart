@@ -87,12 +87,12 @@ class OrderItemCreate {
 
   List<Option> options;
 
-  /// زمان آمادهسازی کالا (به روز)
+  /// Preparation time for the item (in days)
   ///
   /// Minimum value: 0
   int preparationTime;
 
-  /// وزن کالا (بر حسب گرم)
+  /// Weight of the item (in grams)
   ///
   /// Minimum value: 0
   ///

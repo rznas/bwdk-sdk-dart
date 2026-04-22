@@ -21,19 +21,19 @@ void main() {
       // TODO
     });
 
-    // نام روش/گزینه بسته‌بندی
+    // نام روش ارسال
     // String name
     test('to test the property `name`', () async {
       // TODO
     });
 
-    // شناسه روش ارسال برای استفاده در سفارش
+    // توضیحات روش ارسال و جزئیات تحویل آن
     // String description
     test('to test the property `description`', () async {
       // TODO
     });
 
-    // شناسه وضعیت ارسال از دیجی اکسپرس  * `1` - سایر * `2` - دیجی اکسپرس
+    // نوع روش ارسال: عادی یا دیجی اکسپرس  * `1` - سایر * `2` - دیجی اکسپرس
     // ShippingTypeEnum shippingType
     test('to test the property `shippingType`', () async {
       // TODO
@@ -49,7 +49,7 @@ void main() {
       // TODO
     });
 
-    // هزینه ارسال برای منطقه اصلی (مثلاً تهران) به تومان
+    // هزینه ارسال برای منطقه اولیه (مثلاً تهران) به تومان
     // int cost
     test('to test the property `cost`', () async {
       // TODO
@@ -61,13 +61,13 @@ void main() {
       // TODO
     });
 
-    // حداقل تعداد روز از تاریخ سفارش تا تحویل
+    // حداقل تعداد روزها از تاریخ سفارش تا تحویل
     // int minimumTimeSending
     test('to test the property `minimumTimeSending`', () async {
       // TODO
     });
 
-    // Maximum number of days from order date to delivery
+    // حداکثر تعداد روزها از تاریخ سفارش تا تحویل
     // int maximumTimeSending
     test('to test the property `maximumTimeSending`', () async {
       // TODO
@@ -88,7 +88,7 @@ void main() {
       // TODO
     });
 
-    // آیا روش ارسال پرداخت در مقصد است
+    // Whether the shipping method is pay at destination
     // bool isPayAtDestination
     test('to test the property `isPayAtDestination`', () async {
       // TODO

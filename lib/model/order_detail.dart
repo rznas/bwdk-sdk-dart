@@ -73,7 +73,7 @@ class OrderDetail {
 
   String statusDisplay;
 
-  /// مجموع قیمت‌های اولیه تمام کالاها بدون تخفیف (به تومان)
+  /// مجموع قیمت اولیه تمام کالاهای سفارش بدون تخفیف (به تومان)
   int mainAmount;
 
   /// قیمت نهایی قابل پرداخت توسط مشتری: مبلغ_اصلی - مبلغ_تخفیف + مبلغ_مالیات (به تومان)
@@ -82,7 +82,7 @@ class OrderDetail {
   /// مبلغ کل پرداخت شده توسط کاربر: مبلغ_نهایی + هزینه_ارسال (به تومان)
   int totalPaidAmount;
 
-  /// کل تخفیف اعمال شده بر سفارش (به تومان)
+  /// مبلغ کل تخفیف اعمال شده بر سفارش (به تومان)
   int discountAmount;
 
   /// مبلغ کل مالیات برای سفارش (به تومان)
@@ -132,25 +132,25 @@ class OrderDetail {
 
   PaymentOrder payment;
 
-  /// زمان آمادهسازی سفارش (به روز)
+  /// Preparation time for the order (in days)
   int preparationTime;
 
-  /// وزن کل سفارش (بر حسب گرم)
+  /// Total weight of the order (in grams)
   double weight;
 
   Map<String, Object> selectedShippingData;
 
-  /// کد مرجع منحصر به فرد برای پیگیری سفارش مشتری (فرمت: BD-XXXXXXXX)
+  /// کد مرجع یکتا برای پیگیری سفارش مشتری (قالب: BD-XXXXXXXX)
   String referenceCode;
 
   double promotionDiscountAmount;
 
   Map<String, Object> promotionData;
 
-  /// مبلغ نشانه‌گذاری برای سفارش (به تومان)
+  /// Markup amount for the order (in Tomans)
   int digipayMarkupAmount;
 
-  /// درصد کمیسیون نشانه‌گذاری برای سفارش (به درصد)
+  /// Markup commission percentage for the order (in percent)
   int markupCommissionPercentage;
 
   OrderStatusEnum? previousStatus;

@@ -16,13 +16,13 @@ void main() {
   // final instance = WalletBalance();
 
   group('test WalletBalance', () {
-    // موجودی کیف پول فعلی (برحسب تومان)
+    // Current wallet balance in Tomans
     // int amount
     test('to test the property `amount`', () async {
       // TODO
     });
 
-    // مهلت تسویه تراز منفی
+    // Deadline for settling negative balance
     // String negativeSettlementDeadline
     test('to test the property `negativeSettlementDeadline`', () async {
       // TODO

@@ -28,7 +28,10 @@ part 'auth/oauth.dart';
 part 'auth/http_basic_auth.dart';
 part 'auth/http_bearer_auth.dart';
 
-part 'api/default_api.dart';
+part 'api/merchant_orders_api.dart';
+part 'api/merchant_wallet_api.dart';
+part 'api/order_shipping_api.dart';
+part 'api/seller_profile_management_api.dart';
 
 part 'model/auth_status_response.dart';
 part 'model/business_address.dart';

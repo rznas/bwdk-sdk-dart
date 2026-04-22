@@ -25,7 +25,7 @@ class MerchantPaidOrderList {
   /// شناسه منحصر به فرد سفارش در سیستم فروشنده
   String merchantOrderId;
 
-  /// شناسه منحصر به فرد برای پذیرنده برای تأیید سفارش
+  /// شناسه منحصر به فرد فروشنده برای تأیید سفارش
   String merchantUniqueId;
 
   DateTime? paidAt;

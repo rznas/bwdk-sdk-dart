@@ -16,7 +16,7 @@ void main() {
   // final instance = AuthStatusResponse();
 
   group('test AuthStatusResponse', () {
-    // وضعیت لاگین بودن
+    // Authentication status
     // bool isAuthenticated
     test('to test the property `isAuthenticated`', () async {
       // TODO

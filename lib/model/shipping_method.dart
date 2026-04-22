@@ -31,10 +31,10 @@ class ShippingMethod {
 
   int id;
 
-  /// نام روش/گزینه بسته‌بندی
+  /// نام روش ارسال
   String name;
 
-  /// شناسه روش ارسال برای استفاده در سفارش
+  /// توضیحات روش ارسال و جزئیات تحویل آن
   ///
   /// Please note: This property should have been non-nullable! Since the specification file
   /// does not include a default value (using the "default:" property), however, the generated
@@ -43,7 +43,7 @@ class ShippingMethod {
   ///
   String? description;
 
-  /// شناسه وضعیت ارسال از دیجی اکسپرس  * `1` - سایر * `2` - دیجی اکسپرس
+  /// نوع روش ارسال: عادی یا دیجی اکسپرس  * `1` - سایر * `2` - دیجی اکسپرس
   ///
   /// Minimum value: 0.0
   /// Maximum value: 32767.0
@@ -59,7 +59,7 @@ class ShippingMethod {
 
   String shippingTypeDisplay;
 
-  /// هزینه ارسال برای منطقه اصلی (مثلاً تهران) به تومان
+  /// هزینه ارسال برای منطقه اولیه (مثلاً تهران) به تومان
   ///
   /// Minimum value: 0
   /// Maximum value: 2147483647
@@ -83,7 +83,7 @@ class ShippingMethod {
   ///
   int? secondaryCost;
 
-  /// حداقل تعداد روز از تاریخ سفارش تا تحویل
+  /// حداقل تعداد روزها از تاریخ سفارش تا تحویل
   ///
   /// Minimum value: 0
   /// Maximum value: 32767
@@ -95,7 +95,7 @@ class ShippingMethod {
   ///
   int? minimumTimeSending;
 
-  /// Maximum number of days from order date to delivery
+  /// حداکثر تعداد روزها از تاریخ سفارش تا تحویل
   ///
   /// Minimum value: 0
   /// Maximum value: 32767
@@ -113,7 +113,7 @@ class ShippingMethod {
 
   BusinessAddress inventoryAddress;
 
-  /// آیا روش ارسال پرداخت در مقصد است
+  /// Whether the shipping method is pay at destination
   ///
   /// Please note: This property should have been non-nullable! Since the specification file
   /// does not include a default value (using the "default:" property), however, the generated

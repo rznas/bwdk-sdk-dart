@@ -63,13 +63,13 @@ void main() {
       // TODO
     });
 
-    // زمان آمادهسازی کالا (به روز)
+    // Preparation time for the item (in days)
     // int preparationTime (default value: 2)
     test('to test the property `preparationTime`', () async {
       // TODO
     });
 
-    // وزن کالا (بر حسب گرم)
+    // Weight of the item (in grams)
     // double weight
     test('to test the property `weight`', () async {
       // TODO
